@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)), url(Images/Background.gif);
+
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.contact h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact h2 {
+    font-size: 16px;
+}
+form {
+    margin-top: 50px;
+    transition: all 1s ease-in-out;
+}
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+}
+input {
+    height: 45px;
+}
+form .submit {
+    background: #15F4EE;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover {
+    background-color: rgba(62, 201, 219, 0.5);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
